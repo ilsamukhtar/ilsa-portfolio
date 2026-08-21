@@ -2,7 +2,7 @@
 
 :root {
   font-family: "Manrope", sans-serif;
-  color: #f2f4f1;
+  color: #ffffff;
   background: #080b09;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,7 +28,7 @@ body {
       transparent 25%
     ),
     #080b09;
-  color: #f2f4f1;
+  color: #ffffff;
 }
 
 body,
@@ -71,6 +71,7 @@ a {
   font-size: 24px;
   font-weight: 500;
   letter-spacing: -2px;
+  color: #ffffff;
 }
 
 .logo span {
@@ -84,7 +85,7 @@ a {
 
 .nav-links a {
   font-size: 12px;
-  color: #b8c0ba;
+  color: #ffffff;
   transition: 0.25s;
 }
 
@@ -97,7 +98,7 @@ a {
   border: 1px solid #303830;
   border-radius: 6px;
   font-size: 12px;
-  color: #f2f4f1;
+  color: #ffffff;
   transition: 0.25s;
 }
 
@@ -136,7 +137,7 @@ a {
   padding: 7px 11px;
   border: 1px solid #273329;
   border-radius: 30px;
-  color: #c0c8c2;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 9px;
   letter-spacing: 1px;
@@ -163,14 +164,9 @@ a {
   letter-spacing: 2px;
   font-weight: 600;
   margin-bottom: 22px;
-
   display: inline-block;
   transform-origin: left center;
-
-  animation: roleReveal 4.5s ease-in-out infinite;
-
-  text-shadow:
-    0 0 8px rgba(129, 255, 149, 0.12);
+  text-shadow: 0 0 8px rgba(129, 255, 149, 0.12);
 }
 
 
@@ -183,7 +179,7 @@ a {
   line-height: 0.99;
   letter-spacing: -5px;
   max-width: 850px;
-  color: #f5f7f5;
+  color: #ffffff;
 }
 
 .hero h1 span {
@@ -191,7 +187,7 @@ a {
 }
 
 .hero-text {
-  color: #b7c0b9;
+  color: #ffffff;
   max-width: 650px;
   font-size: 16px;
   line-height: 1.9;
@@ -229,7 +225,7 @@ a {
 
 .btn-outline {
   border: 1px solid #303830;
-  color: #d0d6d1;
+  color: #ffffff;
 }
 
 .btn-outline:hover {
@@ -244,7 +240,7 @@ a {
 }
 
 .hero-links a {
-  color: #aeb8b0;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 11px;
 }
@@ -286,7 +282,7 @@ a {
   align-items: center;
   padding: 0 15px;
   gap: 18px;
-  color: #9da79f;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 10px;
 }
@@ -309,7 +305,7 @@ a {
   font-family: "DM Mono", monospace;
   font-size: 12px;
   line-height: 2.1;
-  color: #c0c8c2;
+  color: #ffffff;
 }
 
 .terminal-body b {
@@ -317,7 +313,7 @@ a {
 }
 
 .terminal-output {
-  color: #9ca89f;
+  color: #ffffff;
   padding-left: 15px;
 }
 
@@ -343,7 +339,7 @@ a {
   border: 1px solid #2c392e;
   background: #0b100d;
   border-radius: 6px;
-  color: #aebcaf;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 9px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
@@ -389,7 +385,7 @@ a {
 }
 
 .section-heading p {
-  color: #aeb8b0;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 10px;
   letter-spacing: 2px;
@@ -403,7 +399,7 @@ a {
   font-size: clamp(40px, 5vw, 68px);
   line-height: 1.05;
   letter-spacing: -3px;
-  color: #f4f6f4;
+  color: #ffffff;
 }
 
 .large-title span,
@@ -426,7 +422,7 @@ a {
 }
 
 .about-content {
-  color: #b5beb7;
+  color: #ffffff;
   line-height: 1.9;
   font-size: 15px;
 }
@@ -448,12 +444,12 @@ a {
 }
 
 .about-stats strong {
-  color: #f1f4f1;
+  color: #ffffff;
   font-size: 30px;
 }
 
 .about-stats span {
-  color: #aab4ac;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 9px;
 }
@@ -473,7 +469,7 @@ a {
 
 .skills-intro p {
   max-width: 400px;
-  color: #b0bab2;
+  color: #ffffff;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -498,7 +494,7 @@ a {
 }
 
 .skill-index {
-  color: #a0aaa2;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 10px;
   margin-bottom: 40px;
@@ -507,7 +503,7 @@ a {
 .skill-group h3 {
   font-size: 15px;
   margin-bottom: 20px;
-  color: #f1f4f1;
+  color: #ffffff;
 }
 
 .skill-tags {
@@ -521,7 +517,7 @@ a {
   padding: 6px 9px;
   border: 1px solid #2b342d;
   border-radius: 4px;
-  color: #b1bbb3;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 9px;
 }
@@ -545,7 +541,7 @@ a {
 }
 
 .experience-number {
-  color: #a0aaa2;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 12px;
 }
@@ -560,7 +556,7 @@ a {
 .experience-top h3 {
   font-size: 23px;
   margin-bottom: 8px;
-  color: #f1f4f1;
+  color: #ffffff;
 }
 
 .experience-top p {
@@ -570,7 +566,7 @@ a {
 }
 
 .experience-top > span {
-  color: #a7b1a9;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 10px;
   white-space: nowrap;
@@ -584,7 +580,7 @@ a {
   position: relative;
   padding-left: 22px;
   margin-bottom: 14px;
-  color: #b2bbb4;
+  color: #ffffff;
   line-height: 1.7;
   font-size: 13px;
 }
@@ -611,7 +607,7 @@ a {
 
 .projects-header > p {
   max-width: 400px;
-  color: #b0bab2;
+  color: #ffffff;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -635,7 +631,7 @@ a {
 }
 
 .project-number {
-  color: #a0aaa2;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 12px;
 }
@@ -657,11 +653,11 @@ a {
   font-size: clamp(24px, 3vw, 36px);
   margin-bottom: 17px;
   letter-spacing: -1px;
-  color: #f3f5f3;
+  color: #ffffff;
 }
 
 .project-info > p {
-  color: #b2bbb4;
+  color: #ffffff;
   line-height: 1.8;
   font-size: 14px;
   max-width: 700px;
@@ -681,7 +677,7 @@ a {
 }
 
 .project-result p {
-  color: #c1c9c3;
+  color: #ffffff;
   font-size: 12px;
   margin-top: 6px;
 }
@@ -704,7 +700,7 @@ a {
 
 .project-arrow {
   font-size: 30px;
-  color: #a3ada5;
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -728,7 +724,7 @@ a {
 
 .cert-header > p {
   max-width: 390px;
-  color: #b0bab2;
+  color: #ffffff;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -756,7 +752,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #a9b5ab;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 9px;
 }
@@ -777,11 +773,11 @@ a {
 .certificate-content h3 {
   font-size: 24px;
   margin: 10px 0;
-  color: #f1f4f1;
+  color: #ffffff;
 }
 
 .certificate-content > p {
-  color: #b0bab2;
+  color: #ffffff;
   font-size: 13px;
 }
 
@@ -798,13 +794,13 @@ a {
 }
 
 .certificate-details span {
-  color: #a0aaa2;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 8px;
 }
 
 .certificate-details strong {
-  color: #c5ccc6;
+  color: #ffffff;
   font-size: 11px;
 }
 
@@ -846,7 +842,7 @@ a {
 }
 
 .education-year {
-  color: #a2aca4;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 10px;
 }
@@ -854,7 +850,7 @@ a {
 .education-item h3 {
   font-size: 20px;
   margin-bottom: 8px;
-  color: #f1f4f1;
+  color: #ffffff;
 }
 
 .education-item p {
@@ -865,7 +861,7 @@ a {
 }
 
 .education-item div > span {
-  color: #aeb8b0;
+  color: #ffffff;
   font-size: 12px;
 }
 
@@ -890,7 +886,7 @@ a {
   font-size: clamp(45px, 6vw, 78px);
   line-height: 1.05;
   letter-spacing: -4px;
-  color: #f4f6f4;
+  color: #ffffff;
 }
 
 .contact-section h2 span {
@@ -900,7 +896,7 @@ a {
 .contact-section > p:not(.section-heading p) {
   max-width: 600px;
   margin: 30px auto;
-  color: #b0bab2;
+  color: #ffffff;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -924,7 +920,7 @@ a {
 }
 
 .contact-socials a {
-  color: #aeb8b0;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 10px;
 }
@@ -945,7 +941,7 @@ footer {
   border-top: 1px solid #202720;
   display: flex;
   justify-content: space-between;
-  color: #a0aaa2;
+  color: #ffffff;
 }
 
 footer div {
@@ -955,7 +951,7 @@ footer div {
 }
 
 footer strong {
-  color: #c3cbc5;
+  color: #ffffff;
   font-family: "DM Mono", monospace;
   font-size: 11px;
 }
@@ -964,45 +960,7 @@ footer span,
 footer p {
   font-family: "DM Mono", monospace;
   font-size: 9px;
-  color: #a0aaa2;
-}
-
-
-/* =========================
-   CLOUD & DEVOPS ENGINEER
-   SIGNATURE ANIMATION
-========================= */
-
-@keyframes roleReveal {
-  0% {
-    opacity: 0;
-    transform: translateX(-15px) scaleX(0.7);
-    letter-spacing: -2px;
-  }
-
-  18% {
-    opacity: 1;
-    transform: translateX(0) scaleX(1);
-    letter-spacing: 2px;
-  }
-
-  65% {
-    opacity: 1;
-    transform: translateX(0) scaleX(1);
-    letter-spacing: 2px;
-  }
-
-  88% {
-    opacity: 0;
-    transform: translateX(15px) scaleX(0.7);
-    letter-spacing: -2px;
-  }
-
-  100% {
-    opacity: 0;
-    transform: translateX(15px) scaleX(0.7);
-    letter-spacing: -2px;
-  }
+  color: #ffffff;
 }
 
 
