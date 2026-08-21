@@ -22,7 +22,11 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at 75% 10%, rgba(91, 255, 132, 0.07), transparent 25%),
+    radial-gradient(
+      circle at 75% 10%,
+      rgba(91, 255, 132, 0.07),
+      transparent 25%
+    ),
     #080b09;
   color: #f2f4f1;
 }
@@ -229,7 +233,9 @@ a {
 }
 
 
-/* TERMINAL */
+/* =========================
+   TERMINAL
+========================= */
 
 .hero-terminal {
   position: relative;
@@ -1084,5 +1090,90 @@ footer p {
     width: 90%;
     flex-direction: column;
     gap: 12px;
+  }
+}
+
+
+/* =========================
+   ANIMATED IM + ROLE
+========================= */
+
+/* IM Logo Animation */
+.animated-im {
+  animation: logoReveal 3.5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* Cloud & DevOps Engineer Animation */
+.animated-role {
+  animation: roleReveal 4s ease-in-out infinite;
+  transform-origin: left center;
+}
+
+
+/* IM opens → stays visible → closes → repeats */
+@keyframes logoReveal {
+  0% {
+    opacity: 0.35;
+    transform: scaleX(0.75);
+    letter-spacing: -4px;
+  }
+
+  25% {
+    opacity: 1;
+    transform: scaleX(1);
+    letter-spacing: normal;
+  }
+
+  65% {
+    opacity: 1;
+    transform: scaleX(1);
+    letter-spacing: normal;
+  }
+
+  90% {
+    opacity: 0.35;
+    transform: scaleX(0.75);
+    letter-spacing: -4px;
+  }
+
+  100% {
+    opacity: 0.35;
+    transform: scaleX(0.75);
+    letter-spacing: -4px;
+  }
+}
+
+
+/* Cloud & DevOps Engineer opens → stays → closes → repeats */
+@keyframes roleReveal {
+  0% {
+    opacity: 0.2;
+    transform: scaleX(0.8);
+    letter-spacing: -2px;
+  }
+
+  25% {
+    opacity: 1;
+    transform: scaleX(1);
+    letter-spacing: 1px;
+  }
+
+  65% {
+    opacity: 1;
+    transform: scaleX(1);
+    letter-spacing: 1px;
+  }
+
+  90% {
+    opacity: 0.2;
+    transform: scaleX(0.8);
+    letter-spacing: -2px;
+  }
+
+  100% {
+    opacity: 0.2;
+    transform: scaleX(0.8);
+    letter-spacing: -2px;
   }
 }

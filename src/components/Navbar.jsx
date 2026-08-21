@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href="#home" className="logo">
+      <a href="#home" className="logo animated-im">
         IM<span>.</span>
       </a>
 

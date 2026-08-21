@@ -10,7 +10,7 @@ function Hero() {
             OPEN TO OPPORTUNITIES
           </div>
 
-          <p className="eyebrow">
+          <p className="eyebrow animated-role">
             CLOUD & DEVOPS ENGINEER
           </p>
 
