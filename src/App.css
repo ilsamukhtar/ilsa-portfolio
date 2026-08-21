@@ -71,10 +71,6 @@ a {
   font-size: 24px;
   font-weight: 500;
   letter-spacing: -2px;
-
-  /* IM animation */
-  animation: logoReveal 4s ease-in-out infinite;
-  transform-origin: center;
 }
 
 .logo span {
@@ -88,7 +84,7 @@ a {
 
 .nav-links a {
   font-size: 12px;
-  color: #858d86;
+  color: #b8c0ba;
   transition: 0.25s;
 }
 
@@ -101,6 +97,7 @@ a {
   border: 1px solid #303830;
   border-radius: 6px;
   font-size: 12px;
+  color: #f2f4f1;
   transition: 0.25s;
 }
 
@@ -139,7 +136,7 @@ a {
   padding: 7px 11px;
   border: 1px solid #273329;
   border-radius: 30px;
-  color: #8e9a90;
+  color: #c0c8c2;
   font-family: "DM Mono", monospace;
   font-size: 9px;
   letter-spacing: 1px;
@@ -154,42 +151,24 @@ a {
   box-shadow: 0 0 12px #75ff8a;
 }
 
+
 /* =========================
-   ANIMATED CLOUD & DEVOPS ENGINEER
+   CLOUD & DEVOPS ENGINEER
 ========================= */
 
 .eyebrow {
   color: #81ff95;
-
-  /*
-    Handwritten / signing style
-  */
   font-family: "Caveat", cursive;
-
-  /*
-    Thora bara
-  */
   font-size: 22px;
-
-  /*
-    Signing jaisa spacing
-  */
   letter-spacing: 2px;
-
   font-weight: 600;
-
   margin-bottom: 22px;
 
-  /*
-    Animation
-  */
   display: inline-block;
   transform-origin: left center;
+
   animation: roleReveal 4.5s ease-in-out infinite;
 
-  /*
-    Slight green glow
-  */
   text-shadow:
     0 0 8px rgba(129, 255, 149, 0.12);
 }
@@ -204,6 +183,7 @@ a {
   line-height: 0.99;
   letter-spacing: -5px;
   max-width: 850px;
+  color: #f5f7f5;
 }
 
 .hero h1 span {
@@ -211,7 +191,7 @@ a {
 }
 
 .hero-text {
-  color: #858e87;
+  color: #b7c0b9;
   max-width: 650px;
   font-size: 16px;
   line-height: 1.9;
@@ -249,7 +229,7 @@ a {
 
 .btn-outline {
   border: 1px solid #303830;
-  color: #b1b9b2;
+  color: #d0d6d1;
 }
 
 .btn-outline:hover {
@@ -264,7 +244,7 @@ a {
 }
 
 .hero-links a {
-  color: #667068;
+  color: #aeb8b0;
   font-family: "DM Mono", monospace;
   font-size: 11px;
 }
@@ -306,7 +286,7 @@ a {
   align-items: center;
   padding: 0 15px;
   gap: 18px;
-  color: #626b63;
+  color: #9da79f;
   font-family: "DM Mono", monospace;
   font-size: 10px;
 }
@@ -329,7 +309,7 @@ a {
   font-family: "DM Mono", monospace;
   font-size: 12px;
   line-height: 2.1;
-  color: #a8b1aa;
+  color: #c0c8c2;
 }
 
 .terminal-body b {
@@ -337,7 +317,7 @@ a {
 }
 
 .terminal-output {
-  color: #7c8b7f;
+  color: #9ca89f;
   padding-left: 15px;
 }
 
@@ -363,7 +343,7 @@ a {
   border: 1px solid #2c392e;
   background: #0b100d;
   border-radius: 6px;
-  color: #87a18c;
+  color: #aebcaf;
   font-family: "DM Mono", monospace;
   font-size: 9px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
@@ -409,7 +389,7 @@ a {
 }
 
 .section-heading p {
-  color: #69736c;
+  color: #aeb8b0;
   font-family: "DM Mono", monospace;
   font-size: 10px;
   letter-spacing: 2px;
@@ -423,6 +403,7 @@ a {
   font-size: clamp(40px, 5vw, 68px);
   line-height: 1.05;
   letter-spacing: -3px;
+  color: #f4f6f4;
 }
 
 .large-title span,
@@ -445,7 +426,7 @@ a {
 }
 
 .about-content {
-  color: #808a82;
+  color: #b5beb7;
   line-height: 1.9;
   font-size: 15px;
 }
@@ -467,12 +448,12 @@ a {
 }
 
 .about-stats strong {
-  color: #e9eee9;
+  color: #f1f4f1;
   font-size: 30px;
 }
 
 .about-stats span {
-  color: #687269;
+  color: #aab4ac;
   font-family: "DM Mono", monospace;
   font-size: 9px;
 }
@@ -492,7 +473,7 @@ a {
 
 .skills-intro p {
   max-width: 400px;
-  color: #747d76;
+  color: #b0bab2;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -517,7 +498,7 @@ a {
 }
 
 .skill-index {
-  color: #546057;
+  color: #a0aaa2;
   font-family: "DM Mono", monospace;
   font-size: 10px;
   margin-bottom: 40px;
@@ -526,6 +507,7 @@ a {
 .skill-group h3 {
   font-size: 15px;
   margin-bottom: 20px;
+  color: #f1f4f1;
 }
 
 .skill-tags {
@@ -539,7 +521,7 @@ a {
   padding: 6px 9px;
   border: 1px solid #2b342d;
   border-radius: 4px;
-  color: #79857b;
+  color: #b1bbb3;
   font-family: "DM Mono", monospace;
   font-size: 9px;
 }
@@ -563,7 +545,7 @@ a {
 }
 
 .experience-number {
-  color: #526057;
+  color: #a0aaa2;
   font-family: "DM Mono", monospace;
   font-size: 12px;
 }
@@ -578,6 +560,7 @@ a {
 .experience-top h3 {
   font-size: 23px;
   margin-bottom: 8px;
+  color: #f1f4f1;
 }
 
 .experience-top p {
@@ -587,7 +570,7 @@ a {
 }
 
 .experience-top > span {
-  color: #59635b;
+  color: #a7b1a9;
   font-family: "DM Mono", monospace;
   font-size: 10px;
   white-space: nowrap;
@@ -601,7 +584,7 @@ a {
   position: relative;
   padding-left: 22px;
   margin-bottom: 14px;
-  color: #788279;
+  color: #b2bbb4;
   line-height: 1.7;
   font-size: 13px;
 }
@@ -628,7 +611,7 @@ a {
 
 .projects-header > p {
   max-width: 400px;
-  color: #737d75;
+  color: #b0bab2;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -652,7 +635,7 @@ a {
 }
 
 .project-number {
-  color: #566158;
+  color: #a0aaa2;
   font-family: "DM Mono", monospace;
   font-size: 12px;
 }
@@ -674,10 +657,11 @@ a {
   font-size: clamp(24px, 3vw, 36px);
   margin-bottom: 17px;
   letter-spacing: -1px;
+  color: #f3f5f3;
 }
 
 .project-info > p {
-  color: #7b857d;
+  color: #b2bbb4;
   line-height: 1.8;
   font-size: 14px;
   max-width: 700px;
@@ -697,7 +681,7 @@ a {
 }
 
 .project-result p {
-  color: #a3ada5;
+  color: #c1c9c3;
   font-size: 12px;
   margin-top: 6px;
 }
@@ -720,7 +704,7 @@ a {
 
 .project-arrow {
   font-size: 30px;
-  color: #536058;
+  color: #a3ada5;
   transition: 0.3s;
 }
 
@@ -744,7 +728,7 @@ a {
 
 .cert-header > p {
   max-width: 390px;
-  color: #747e76;
+  color: #b0bab2;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -772,7 +756,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #78917c;
+  color: #a9b5ab;
   font-family: "DM Mono", monospace;
   font-size: 9px;
 }
@@ -793,10 +777,11 @@ a {
 .certificate-content h3 {
   font-size: 24px;
   margin: 10px 0;
+  color: #f1f4f1;
 }
 
 .certificate-content > p {
-  color: #778078;
+  color: #b0bab2;
   font-size: 13px;
 }
 
@@ -813,13 +798,13 @@ a {
 }
 
 .certificate-details span {
-  color: #566057;
+  color: #a0aaa2;
   font-family: "DM Mono", monospace;
   font-size: 8px;
 }
 
 .certificate-details strong {
-  color: #a8b0aa;
+  color: #c5ccc6;
   font-size: 11px;
 }
 
@@ -861,7 +846,7 @@ a {
 }
 
 .education-year {
-  color: #647067;
+  color: #a2aca4;
   font-family: "DM Mono", monospace;
   font-size: 10px;
 }
@@ -869,6 +854,7 @@ a {
 .education-item h3 {
   font-size: 20px;
   margin-bottom: 8px;
+  color: #f1f4f1;
 }
 
 .education-item p {
@@ -879,7 +865,7 @@ a {
 }
 
 .education-item div > span {
-  color: #69746c;
+  color: #aeb8b0;
   font-size: 12px;
 }
 
@@ -904,6 +890,7 @@ a {
   font-size: clamp(45px, 6vw, 78px);
   line-height: 1.05;
   letter-spacing: -4px;
+  color: #f4f6f4;
 }
 
 .contact-section h2 span {
@@ -913,7 +900,7 @@ a {
 .contact-section > p:not(.section-heading p) {
   max-width: 600px;
   margin: 30px auto;
-  color: #788179;
+  color: #b0bab2;
   line-height: 1.8;
   font-size: 14px;
 }
@@ -937,7 +924,7 @@ a {
 }
 
 .contact-socials a {
-  color: #69736c;
+  color: #aeb8b0;
   font-family: "DM Mono", monospace;
   font-size: 10px;
 }
@@ -958,7 +945,7 @@ footer {
   border-top: 1px solid #202720;
   display: flex;
   justify-content: space-between;
-  color: #505951;
+  color: #a0aaa2;
 }
 
 footer div {
@@ -968,7 +955,7 @@ footer div {
 }
 
 footer strong {
-  color: #8b968d;
+  color: #c3cbc5;
   font-family: "DM Mono", monospace;
   font-size: 11px;
 }
@@ -977,13 +964,14 @@ footer span,
 footer p {
   font-family: "DM Mono", monospace;
   font-size: 9px;
+  color: #a0aaa2;
 }
 
 
-/*
-   CLOUD & DEVOPS ENGINEER:
-   signature-style opening animation
-*/
+/* =========================
+   CLOUD & DEVOPS ENGINEER
+   SIGNATURE ANIMATION
+========================= */
 
 @keyframes roleReveal {
   0% {
@@ -1076,11 +1064,6 @@ footer p {
   .hero {
     padding-top: 70px;
   }
-
-  /*
-    Mobile par role thora chota
-    rakha gaya hai taake line break na ho
-  */
 
   .eyebrow {
     font-size: 19px;
