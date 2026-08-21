@@ -980,49 +980,6 @@ footer p {
 }
 
 
-/* =========================
-   ANIMATIONS
-========================= */
-
-/*
-   IM:
-   slowly opens → stays visible
-   → closes → repeats
-*/
-
-@keyframes logoReveal {
-  0% {
-    opacity: 0.3;
-    transform: scaleX(0.65);
-    letter-spacing: -5px;
-  }
-
-  20% {
-    opacity: 1;
-    transform: scaleX(1);
-    letter-spacing: -2px;
-  }
-
-  65% {
-    opacity: 1;
-    transform: scaleX(1);
-    letter-spacing: -2px;
-  }
-
-  88% {
-    opacity: 0.3;
-    transform: scaleX(0.65);
-    letter-spacing: -5px;
-  }
-
-  100% {
-    opacity: 0.3;
-    transform: scaleX(0.65);
-    letter-spacing: -5px;
-  }
-}
-
-
 /*
    CLOUD & DEVOPS ENGINEER:
    signature-style opening animation
