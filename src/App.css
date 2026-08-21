@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap");
 
 :root {
   font-family: "Manrope", sans-serif;
@@ -71,6 +71,10 @@ a {
   font-size: 24px;
   font-weight: 500;
   letter-spacing: -2px;
+
+  /* IM animation */
+  animation: logoReveal 4s ease-in-out infinite;
+  transform-origin: center;
 }
 
 .logo span {
@@ -150,13 +154,50 @@ a {
   box-shadow: 0 0 12px #75ff8a;
 }
 
+/* =========================
+   ANIMATED CLOUD & DEVOPS ENGINEER
+========================= */
+
 .eyebrow {
   color: #81ff95;
-  font-family: "DM Mono", monospace;
-  font-size: 11px;
-  letter-spacing: 3px;
+
+  /*
+    Handwritten / signing style
+  */
+  font-family: "Caveat", cursive;
+
+  /*
+    Thora bara
+  */
+  font-size: 22px;
+
+  /*
+    Signing jaisa spacing
+  */
+  letter-spacing: 2px;
+
+  font-weight: 600;
+
   margin-bottom: 22px;
+
+  /*
+    Animation
+  */
+  display: inline-block;
+  transform-origin: left center;
+  animation: roleReveal 4.5s ease-in-out infinite;
+
+  /*
+    Slight green glow
+  */
+  text-shadow:
+    0 0 8px rgba(129, 255, 149, 0.12);
 }
+
+
+/* =========================
+   HERO HEADING
+========================= */
 
 .hero h1 {
   font-size: clamp(52px, 7vw, 96px);
@@ -250,9 +291,11 @@ a {
   border: 1px solid #283129;
   border-radius: 10px;
   background: #0b0f0c;
+
   box-shadow:
     0 30px 100px rgba(0, 0, 0, 0.55),
     inset 0 1px rgba(255, 255, 255, 0.025);
+
   transform: perspective(900px) rotateY(-5deg) rotateX(2deg);
 }
 
@@ -714,7 +757,11 @@ a {
   padding: 35px;
   border: 1px solid #2a352c;
   background:
-    linear-gradient(135deg, rgba(132, 255, 151, 0.025), transparent);
+    linear-gradient(
+      135deg,
+      rgba(132, 255, 151, 0.025),
+      transparent
+    );
 }
 
 .certificate-badge {
@@ -934,6 +981,87 @@ footer p {
 
 
 /* =========================
+   ANIMATIONS
+========================= */
+
+/*
+   IM:
+   slowly opens → stays visible
+   → closes → repeats
+*/
+
+@keyframes logoReveal {
+  0% {
+    opacity: 0.3;
+    transform: scaleX(0.65);
+    letter-spacing: -5px;
+  }
+
+  20% {
+    opacity: 1;
+    transform: scaleX(1);
+    letter-spacing: -2px;
+  }
+
+  65% {
+    opacity: 1;
+    transform: scaleX(1);
+    letter-spacing: -2px;
+  }
+
+  88% {
+    opacity: 0.3;
+    transform: scaleX(0.65);
+    letter-spacing: -5px;
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: scaleX(0.65);
+    letter-spacing: -5px;
+  }
+}
+
+
+/*
+   CLOUD & DEVOPS ENGINEER:
+   signature-style opening animation
+*/
+
+@keyframes roleReveal {
+  0% {
+    opacity: 0;
+    transform: translateX(-15px) scaleX(0.7);
+    letter-spacing: -2px;
+  }
+
+  18% {
+    opacity: 1;
+    transform: translateX(0) scaleX(1);
+    letter-spacing: 2px;
+  }
+
+  65% {
+    opacity: 1;
+    transform: translateX(0) scaleX(1);
+    letter-spacing: 2px;
+  }
+
+  88% {
+    opacity: 0;
+    transform: translateX(15px) scaleX(0.7);
+    letter-spacing: -2px;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(15px) scaleX(0.7);
+    letter-spacing: -2px;
+  }
+}
+
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -990,6 +1118,16 @@ footer p {
 
   .hero {
     padding-top: 70px;
+  }
+
+  /*
+    Mobile par role thora chota
+    rakha gaya hai taake line break na ho
+  */
+
+  .eyebrow {
+    font-size: 19px;
+    letter-spacing: 1.5px;
   }
 
   .hero h1 {
@@ -1090,90 +1228,5 @@ footer p {
     width: 90%;
     flex-direction: column;
     gap: 12px;
-  }
-}
-
-
-/* =========================
-   ANIMATED IM + ROLE
-========================= */
-
-/* IM Logo Animation */
-.animated-im {
-  animation: logoReveal 3.5s ease-in-out infinite;
-  transform-origin: center;
-}
-
-/* Cloud & DevOps Engineer Animation */
-.animated-role {
-  animation: roleReveal 4s ease-in-out infinite;
-  transform-origin: left center;
-}
-
-
-/* IM opens → stays visible → closes → repeats */
-@keyframes logoReveal {
-  0% {
-    opacity: 0.35;
-    transform: scaleX(0.75);
-    letter-spacing: -4px;
-  }
-
-  25% {
-    opacity: 1;
-    transform: scaleX(1);
-    letter-spacing: normal;
-  }
-
-  65% {
-    opacity: 1;
-    transform: scaleX(1);
-    letter-spacing: normal;
-  }
-
-  90% {
-    opacity: 0.35;
-    transform: scaleX(0.75);
-    letter-spacing: -4px;
-  }
-
-  100% {
-    opacity: 0.35;
-    transform: scaleX(0.75);
-    letter-spacing: -4px;
-  }
-}
-
-
-/* Cloud & DevOps Engineer opens → stays → closes → repeats */
-@keyframes roleReveal {
-  0% {
-    opacity: 0.2;
-    transform: scaleX(0.8);
-    letter-spacing: -2px;
-  }
-
-  25% {
-    opacity: 1;
-    transform: scaleX(1);
-    letter-spacing: 1px;
-  }
-
-  65% {
-    opacity: 1;
-    transform: scaleX(1);
-    letter-spacing: 1px;
-  }
-
-  90% {
-    opacity: 0.2;
-    transform: scaleX(0.8);
-    letter-spacing: -2px;
-  }
-
-  100% {
-    opacity: 0.2;
-    transform: scaleX(0.8);
-    letter-spacing: -2px;
   }
 }
