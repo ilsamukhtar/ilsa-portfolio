@@ -64,7 +64,7 @@ function Certifications() {
         </div>
 
         <a
-          href="/ilsa-portfolio/certificates/devops-cloud.pdf"
+          href={`${window.location.origin}/ilsa-portfolio/certificates/devops-cloud.pdf`}
           target="_blank"
           rel="noreferrer"
           className="certificate-button"
